@@ -52,7 +52,7 @@ export default function Portfolio() {
                 >
                   <img
                     alt="proyek terbaru satu"
-                    src="https://loremflickr.com/600/400?random=120"
+                    src="/back-end-notes-api.png"
                     className="object-cover object-center"
                   />
                 </motion.div>
@@ -184,7 +184,7 @@ export default function Portfolio() {
                 >
                   <img
                     alt="latest project one"
-                    src="https://loremflickr.com/600/400?random=200"
+                    src="/doyan-makan.png"
                     className="object-cover object-center"
                   />
                 </motion.div>
@@ -202,7 +202,7 @@ export default function Portfolio() {
                 >
                   <img
                     alt="latest project one"
-                    src="https://loremflickr.com/600/400?random=120"
+                    src="/minuhida-web.png"
                     className="object-cover object-center"
                   />
                 </motion.div>
@@ -219,16 +219,16 @@ export default function Portfolio() {
                   className="mb-4"
                 >
                   <p className="card-title mb-3">
-                    MI NU Imaduddin Official Web - Website Sekolah
+                  MI NU Hidayatul Athfal Kudus Official Web - Website Sekolah
                   </p>
                   <p className="text-base text-slate-700">
-                    Website resmi MI NU Imaduddin adalah website sekolah yang
-                    dibangun dengan Wordpress dan Elementor. Website ini
-                    memiliki fitur seperti menampilkan informasi sekolah,
-                    informasi guru, dan informasi kegiatan sekolah.
+                    Website resmi MI NU Hidayatul Athfal Kudus adalah website
+                    sekolah yang dibangun dengan Wordpress dan Elementor.
+                    Website ini memiliki fitur seperti menampilkan informasi
+                    sekolah, informasi guru, dan informasi kegiatan sekolah.
                   </p>
                   <a
-                    href="https://minuimaduddinhadiwarno.sch.id"
+                    href="https://minuhidayatulathfalkudus.sch.id/"
                     target="_blank"
                     className="btn btn-ghost btn-sm mt-4"
                   >
@@ -326,7 +326,7 @@ export default function Portfolio() {
                 >
                   <img
                     alt="latest project one"
-                    src="https://loremflickr.com/600/400?random=200"
+                    src="/dashboard-sim-2.png"
                     className="object-cover object-center"
                   />
                 </motion.div>
@@ -347,7 +347,7 @@ export default function Portfolio() {
                 >
                   <img
                     alt="latest project one"
-                    src="https://loremflickr.com/600/400?random=120"
+                    src="/web-porto-next.png"
                     className="object-cover object-center"
                   />
                 </motion.div>

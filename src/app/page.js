@@ -203,13 +203,13 @@ export default function Home() {
                   transition={{ duration: 0.75, ease: "easeInOut" }}
                   className="rounded-lg shadow-md overflow-hidden"
                 >
-                  <Link href="/portfolio/" className="block">
+                  <div className="block">
                     <img
-                      src="https://loremflickr.com/600/400?random=200"
+                      src="/fe-gpn.png"
                       alt="Portfolio"
                       className="w-full h-full object-cover"
                     />
-                  </Link>
+                  </div>
                 </motion.div>
                 <motion.div
                   initial={{ translateX: 20, opacity: 0 }}
@@ -217,9 +217,12 @@ export default function Home() {
                   transition={{ duration: 0.75, ease: "easeInOut", delay: 0.2 }}
                   className="p-5"
                 >
-                  <Link href="/portfolio/">
+                  <a
+                    href="https://web-gpn-percobaan.netlify.app/"
+                    target="_blank"
+                  >
                     <h3 className="text-2xl font-bold mb-2">Fashion Store</h3>
-                  </Link>
+                  </a>
                   <p className="text-slate-700 dark:text-slate-300 mb-4">
                     Fashion Store adalah aplikasi e-commerce yang dibangun
                     menggunakan React.js dan Tailwind CSS. Aplikasi ini memiliki
@@ -228,7 +231,7 @@ export default function Home() {
                     juga memiliki fitur manajemen akun pengguna.
                   </p>
                   <a
-                    href="https://notes-app-back-end.netlify.app"
+                    href="https://web-gpn-percobaan.netlify.app/"
                     target="_blank"
                     className="font-bold text-slate-700 hover:underline"
                   >
@@ -244,13 +247,13 @@ export default function Home() {
                   transition={{ duration: 0.75, ease: "easeInOut", delay: 0.4 }}
                   className="rounded-lg shadow-md overflow-hidden"
                 >
-                  <Link href="/portfolio/" className="block">
+                  <div className="block">
                     <img
-                      src="https://loremflickr.com/600/400?random=200"
+                      src="/dashboard-sim-2.png"
                       alt="Portfolio"
                       className="w-full h-full object-cover"
                     />
-                  </Link>
+                  </div>
                 </motion.div>
                 <motion.div
                   initial={{ translateX: 20, opacity: 0 }}
@@ -258,9 +261,9 @@ export default function Home() {
                   transition={{ duration: 0.75, ease: "easeInOut", delay: 0.6 }}
                   className="p-5"
                 >
-                  <Link href="/portfolio/">
+                  <a href="/portfolio/">
                     <h3 className="text-2xl font-bold mb-2">SiInforMan</h3>
-                  </Link>
+                  </a>
                   <p className="text-slate-700 dark:text-slate-300 mb-4">
                     SiInforMan adalah dashboard manajemen anggota organisasi
                     kemasyarakatan. Aplikasi ini memiliki fitur seperti

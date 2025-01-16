@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function MenuLink() {
   return (
-    <nav className="justify-around hidden md:flex">
+    <nav className="justify-around hidden uppercase md:flex">
       <Link
         className="p-3 hover:text-amber-600 transition duration-200 ease-in"
         href={"/"}

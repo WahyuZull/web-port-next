@@ -69,7 +69,7 @@ export default function Header() {
         <div
           className={`${
             mobileMenu ? "translate-x-0" : "translate-x-full"
-          } fixed top-0 right-0 h-screen w-full bg-white/95 dark:bg-stone-900/90 transition-transform duration-200 ease-in`}
+          } fixed top-0 right-0 h-screen w-full bg-white dark:bg-stone-900/90 transition-transform duration-200 ease-in`}
         >
           <div className="btn btn-ghost swap swap-rotate block justify-self-end mt-4 ">
             <CgClose size={24} onClick={handleMobileMenu} />

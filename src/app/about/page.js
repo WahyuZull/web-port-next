@@ -179,10 +179,6 @@ export default function About() {
                   <span className="text-xs mt-2">JavaScript</span>
                 </div>
                 <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <SiNodedotjs size={32} className="text-[#5FA04E]" />
-                  <span className="text-xs mt-2">Node.js</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
                   <SiTailwindcss size={32} className="text-[#06B6D4]" />
                   <span className="text-xs mt-2">TailwindCSS</span>
                 </div>
@@ -197,10 +193,6 @@ export default function About() {
                 <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
                   <SiInertia size={32} className="text-[#9553E9]" />
                   <span className="text-xs mt-2">Inertia.js</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <RiNextjsLine size={32} className="text-black" />
-                  <span className="text-xs mt-2">Next.js</span>
                 </div>
                 <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
                   <FaWordpress size={32} className="text-[#21759B]" />
@@ -265,14 +257,18 @@ export default function About() {
                 transition={{ duration: 0.75, ease: "easeInOut", delay: 0.45 }}
                 className="overflow-hidden rounded-lg shadow-sm bg-white hover:shadow-lg hover:scale-105 transition duration-150 ease-in"
               >
-                <div className="h-64 w-full">
+                <a
+                  href="https://www.dicoding.com/certificates/QLZ94RY57P5D"
+                  target="_blank"
+                  className="h-64 w-full"
+                >
                   <img
-                    src="https://loremflickr.com/400/400?random=1"
+                    src="/funda-react.png"
                     className="h-full w-full object-cover object-center"
                     alt="image-certificate-1"
                     loading="lazy"
                   />
-                </div>
+                </a>
               </motion.div>
               <motion.div
                 initial={{ translateY: 20, opacity: 0 }}
@@ -280,14 +276,18 @@ export default function About() {
                 transition={{ duration: 0.75, ease: "easeInOut", delay: 0.55 }}
                 className="overflow-hidden rounded-lg shadow-sm bg-white hover:shadow-lg hover:scale-105 transition duration-150 ease-in"
               >
-                <div className="h-64 w-full">
+                <a
+                  href="https://www.netacad.com/certificates?issuanceId=3ce63e5e-afae-4274-9899-792dd7aeb617"
+                  target="_blank"
+                  className="h-64 w-full"
+                >
                   <img
-                    src="https://loremflickr.com/400/400?random=2"
+                    src="/ccna-cyber-ops.png"
                     className="h-full w-full object-cover object-center"
                     alt="image-certificate-2"
                     loading="lazy"
                   />
-                </div>
+                </a>
               </motion.div>
               <motion.div
                 initial={{ translateY: 20, opacity: 0 }}
@@ -295,14 +295,18 @@ export default function About() {
                 transition={{ duration: 0.75, ease: "easeInOut", delay: 0.65 }}
                 className="overflow-hidden rounded-lg shadow-sm bg-white hover:shadow-lg hover:scale-105 transition duration-150 ease-in"
               >
-                <div className="h-64 w-full">
+                <a
+                  href="https://www.netacad.com/certificates?issuanceId=3d4607f5-42e2-4fd0-8723-3b0c4b941174"
+                  target="_blank"
+                  className="h-64 w-full"
+                >
                   <img
-                    src="https://loremflickr.com/400/400?random=3"
+                    src="/intro-to-net.png"
                     className="h-full w-full object-cover object-center"
                     alt="image-certificate-3"
                     loading="lazy"
                   />
-                </div>
+                </a>
               </motion.div>
               <motion.div
                 initial={{ translateY: 20, opacity: 0 }}
@@ -310,14 +314,18 @@ export default function About() {
                 transition={{ duration: 0.75, ease: "easeInOut", delay: 0.75 }}
                 className="overflow-hidden rounded-lg shadow-sm bg-white hover:shadow-lg hover:scale-105 transition duration-150 ease-in"
               >
-                <div className="h-64 w-full">
+                <a
+                  className="h-64 w-full"
+                  href="https://www.dicoding.com/certificates/EYX49WV4RPDL"
+                  target="_blank"
+                >
                   <img
-                    src="https://loremflickr.com/400/400?random=4"
+                    src="/front-end-expert.png"
                     className="h-full w-full object-cover object-center"
                     alt="image-certificate-4"
                     loading="lazy"
                   />
-                </div>
+                </a>
               </motion.div>
             </div>
           </div>

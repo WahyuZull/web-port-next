@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function MenuLinkMobile() {
   return (
-    <div className="flex flex-col items-end justify-center gap-1 px-3">
+    <div className="flex flex-col items-end justify-center gap-1 px-3 uppercase">
       <Link
         className="p-3 text-xl hover:text-amber-600 transition duration-200 ease-in"
         href={"/"}
