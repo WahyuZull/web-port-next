@@ -43,7 +43,7 @@ export const ParallexText = ({ children, baseVelocity = 100 }) => {
   return (
     <div className="overflow-hidden flex tracking-tight whitespace-nowrap flex-nowrap leading-3 bg-stone-900 text-slate-50  dark:bg-slate-50 dark:text-stone-900">
       <motion.div
-        className="flex items-center uppercase text-center whitespace-nowrap flex-nowrap md:text-3xl p-3"
+        className="flex items-center uppercase text-center whitespace-nowrap flex-nowrap md:text-xl p-3"
         style={{ x }}
       >
         <span className="block mr-2 md:mr-6">
@@ -64,7 +64,7 @@ export const ParallexText = ({ children, baseVelocity = 100 }) => {
         <span className="block mr-2 md:mr-6">{children}</span>
       </motion.div>
       <motion.div
-        className="flex items-center uppercase text-center whitespace-nowrap flex-nowrap md:text-3xl p-3"
+        className="flex items-center uppercase text-center whitespace-nowrap flex-nowrap md:text-xl p-3"
         style={{ x }}
       >
         <span className="block mr-2 md:mr-6">
@@ -85,7 +85,7 @@ export const ParallexText = ({ children, baseVelocity = 100 }) => {
         <span className="block mr-2 md:mr-6">{children}</span>
       </motion.div>
       <motion.div
-        className="flex items-center uppercase text-center whitespace-nowrap flex-nowrap md:text-3xl p-3"
+        className="flex items-center uppercase text-center whitespace-nowrap flex-nowrap md:text-xl p-3"
         style={{ x }}
       >
         <span className="block mr-2 md:mr-6">
