@@ -90,7 +90,7 @@ export default function Home() {
             <div className="rotate-6">
               <ParallexText baseVelocity={-5}>Next.JS</ParallexText>
             </div>
-            <div className="-rotate</div>-[8deg]">
+            <div className="-rotate-[8deg]">
               <ParallexText baseVelocity={5}>Laravel</ParallexText>
             </div>
           </div>
