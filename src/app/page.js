@@ -4,47 +4,83 @@ import {
   FaCircle,
   FaGithub,
   FaInstagram,
+  FaLaravel,
   FaLinkedin,
+  FaNodeJs,
+  FaReact,
   FaWhatsapp,
 } from "react-icons/fa6";
 import Link from "next/link";
 import BaseLayout from "@/Layouts/BaseLayout";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { SiInertia } from "react-icons/si";
+import TypingText from "@/Components/Atoms/TypingText";
 
 export default function Home() {
   return (
     <BaseLayout>
       <main>
         {/* Hero Section */}
-        <section className="bg-slate-50 dark:bg-stone-900/90">
-          <div className="container max-w-5xl">
+        <section className="relative bg-slate-50 dark:bg-stone-900/90">
+          <svg
+            className="absolute inset-0 h-full w-full stroke-slate-300/60 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="0787a7c5-978c-4f66-83c7-11c213f99cb7"
+                width="100"
+                height="100"
+                x="50%"
+                y="-1"
+                patternUnits="userSpaceOnUse"
+              >
+                <path d="M.5 200V.5H200" fill="none"></path>
+              </pattern>
+            </defs>
+            <rect
+              width="100%"
+              height="100%"
+              strokeWidth="0"
+              fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
+            ></rect>
+          </svg>
+          <div className="relative z-20 container max-w-5xl mx-auto">
             <div className="py-40 flex flex-col items-center h-screen gap-24 md:gap-0 md:flex-row">
-              <div className="w-full flex flex-col justify-center md:p-10">
-                <h1 className="text-7xl md:text-9xl dark:text-white">Hai!</h1>
-                <h2 className="text-base text-slate-700 dark:text-slate-50">
-                  Saya Wahyu Zull
+              <div className="w-full md:p-10">
+                <h1 className="text-5xl font-bold dark:text-white">
+                  Hai! Selamat datang
+                </h1>
+                <h2 className="text-2xl text-slate-700 dark:text-slate-50">
+                  di Web Profile saya
                 </h2>
-                <p className="text-base text-slate-700 dark:text-slate-50">
-                  Saya adalah seorang <strong>Website Developer </strong>
+                <p className="mt-10 text-lg text-slate-700 dark:text-slate-50">
+                  Saya Wahyu Zuliyono dan saya adalah seorang{" "}
+                  <code className="text-slate-900 dark:text-slate-50 bg-white rounded-lg px-2 py-1 border border-slate-300/80">
+                    <TypingText text={"Web Developer"} />
+                    <span className="animate-pulse duration-50">_</span>
+                  </code>
                 </p>
-              </div>
-              <div className="w-full flex justify-center md:p-10">
-                <div className="w-52 h-52">
-                  <Image
-                    src="/hero-profile.webp"
-                    width={200}
-                    height={200}
-                    alt="Hero Foto Profile"
-                    className="w-full h-full object-cover object-center"
-                    loading="lazy"
-                  />
+
+                <div className="flex gap-3 mt-2">
+                  <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#5FA04E] transition-all duration-300">
+                    <FaNodeJs size={32} className="text-[#5FA04E]" />
+                  </div>
+                  <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#61DAFB] transition-all duration-300">
+                    <FaReact size={32} className="text-[#61DAFB]" />
+                  </div>
+                  <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#FF2D20] transition-all duration-300">
+                    <FaLaravel size={32} className="text-[#FF2D20]" />
+                  </div>
+                  <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#9553E9] transition-all duration-300">
+                    <SiInertia size={32} className="text-[#9553E9]" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
         {/* About Section */}
         <section className="pt-32 pb-24 bg-slate-50 dark:bg-stone-900/90">
           <div className="">
@@ -54,7 +90,7 @@ export default function Home() {
             <div className="rotate-6">
               <ParallexText baseVelocity={-5}>Next.JS</ParallexText>
             </div>
-            <div className="-rotate-[8deg]">
+            <div className="-rotate</div>-[8deg]">
               <ParallexText baseVelocity={5}>Laravel</ParallexText>
             </div>
           </div>
@@ -169,7 +205,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         {/* Portfolio Section */}
         <section className="py-24 bg-white dark:bg-stone-900">
           <div className="place-items-center place-content-center mb-12">

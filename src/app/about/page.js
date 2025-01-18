@@ -8,6 +8,7 @@ import {
   FaInstagram,
   FaLaravel,
   FaLinkedin,
+  FaNodeJs,
   FaReact,
   FaWhatsapp,
   FaWordpress,
@@ -159,48 +160,57 @@ export default function About() {
 
           {/* Technical Skills */}
           <div className="container max-w-5xl">
-            <div className="flex flex-col justify-between gap-4 md:gap-8 md:flex-row">
+            <div className="flex flex-col justify-between gap-4 md:gap-8">
               <motion.div
                 initial={{ translateX: -20, opacity: 0 }}
                 whileInView={{ translateX: 0, opacity: 1 }}
                 transition={{ duration: 0.75, ease: "easeInOut", delay: 0.25 }}
-                className="grid grid-cols-2 gap-4 place-items-center md:grid-cols-3 lg:grid-cols-4"
+                className="flex flex-col md:flex-row gap-4 justify-around"
               >
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <SiHtml5 size={32} className="text-[#E34F26]" />
-                  <span className="text-xs mt-2">HTML</span>
+                <div>
+                  <h3 className="my-4 text-base text-slate-700 font-semibold">
+                    Front-End Web Dev
+                  </h3>
+                  <div className="flex flex-wrap gap-4">
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#F7DF1E] transition-all duration-300">
+                      <SiJavascript size={32} className="text-[#F7DF1E]" />
+                    </div>
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#61DAFB] transition-all duration-300">
+                      <FaReact size={32} className="text-[#61DAFB]" />
+                    </div>
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#06B6D4] transition-all duration-300">
+                      <SiTailwindcss size={32} className="text-[#06B6D4]" />
+                    </div>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <SiCss3 size={32} className="text-[#1572B6]" />
-                  <span className="text-xs mt-2">CSS</span>
+                <div>
+                  <h3 className="my-4 text-base text-slate-700 font-semibold">
+                    Back-End Web Dev
+                  </h3>
+                  <div className="flex flex-wrap gap-4">
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#5FA04E] transition-all duration-300">
+                      <FaNodeJs size={32} className="text-[#5FA04E]" />
+                    </div>
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#FF2D20] transition-all duration-300">
+                      <FaLaravel size={32} className="text-[#FF2D20]" />
+                    </div>
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#9553E9] transition-all duration-300">
+                      <SiInertia size={32} className="text-[#9553E9]" />
+                    </div>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <SiJavascript size={32} className="text-[#F7DF1E]" />
-                  <span className="text-xs mt-2">JavaScript</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <SiTailwindcss size={32} className="text-[#06B6D4]" />
-                  <span className="text-xs mt-2">TailwindCSS</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <FaReact size={32} className="text-[#61DAFB]" />
-                  <span className="text-xs mt-2">React.js</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <FaLaravel size={32} className="text-[#FF2D20]" />
-                  <span className="text-xs mt-2">Laravel</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <SiInertia size={32} className="text-[#9553E9]" />
-                  <span className="text-xs mt-2">Inertia.js</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <FaWordpress size={32} className="text-[#21759B]" />
-                  <span className="text-xs mt-2">Wordpress</span>
-                </div>
-                <div className="flex flex-col justify-center items-center text-center mask mask-squircle bg-white w-20 h-20 p-2.5 hover:shadow-sm hover:scale-125 hover:cursor-pointer transition duration-150 ease-in">
-                  <FaElementor size={32} className="text-[#92003B]" />
-                  <span className="text-xs mt-2">Elementor</span>
+                <div>
+                  <h3 className="my-4 text-base text-slate-700 font-semibold">
+                    Wordpress Developer
+                  </h3>
+                  <div className="flex flex-wrap gap-4">
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#21759B] transition-all duration-300">
+                      <FaWordpress size={32} className="text-[#21759B]" />
+                    </div>
+                    <div className="border border-slate-300/80 rounded-lg p-2 grayscale hover:grayscale-0 hover:border-[#92003B] transition-all duration-300">
+                      <FaElementor size={32} className="text-[#92003B]" />
+                    </div>
+                  </div>
                 </div>
               </motion.div>
 

@@ -50,12 +50,10 @@ export default function Header() {
     >
       <div className="container flex justify-between md:justify-center items-center px-4 py-2">
         <div className="flex items-center gap-12">
-          <Link href={"/"} className="btn btn-ghost">
-            <img
-              src="/next.svg"
-              alt="Web Portfolio"
-              className="w-24 h-10"
-            />
+          <Link href={"/"}>
+            <h1 className="text-lg font-bold">
+              <code>WahyuZull_</code>
+            </h1>
           </Link>
 
           <MenuLink />
