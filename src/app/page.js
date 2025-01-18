@@ -47,7 +47,7 @@ export default function Home() {
             ></rect>
           </svg>
           <div className="relative z-20 container max-w-5xl mx-auto">
-            <div className="py-40 flex flex-col items-center h-screen gap-24 md:gap-0 md:flex-row">
+            <div className="py-40 flex flex-col items-center gap-24 md:gap-0 md:flex-row">
               <div className="w-full md:p-10">
                 <h1 className="text-5xl font-bold dark:text-white">
                   Hai! Selamat datang
