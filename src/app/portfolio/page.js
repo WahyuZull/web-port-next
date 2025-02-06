@@ -219,7 +219,7 @@ export default function Portfolio() {
                   className="mb-4"
                 >
                   <p className="card-title mb-3">
-                  MI NU Hidayatul Athfal Kudus Official Web - Website Sekolah
+                    MI NU Hidayatul Athfal Kudus Official Web - Website Sekolah
                   </p>
                   <p className="text-base text-slate-700">
                     Website resmi MI NU Hidayatul Athfal Kudus adalah website
@@ -282,8 +282,13 @@ export default function Portfolio() {
                     fitur manajemen surat. Aplikasi ini dibangun dengan Laravel,
                     React.js dan Inertia.js.
                   </p>
+                  <p className="text-slate-700 dark:text-slate-300 mb-4">
+                    Demo : <br />
+                    username : superadmin@pelajarkudus.com <br />
+                    password :superadmin5455
+                  </p>
                   <a
-                    href="https://notes-app-back-end.netlify.app"
+                    href="https://siinforman.wahyuzull.my.id/dashboard/users"
                     target="_blank"
                     className="btn btn-ghost btn-sm mt-4"
                   >

@@ -296,7 +296,10 @@ export default function Home() {
                   transition={{ duration: 0.75, ease: "easeInOut", delay: 0.6 }}
                   className="p-5"
                 >
-                  <a href="/portfolio/">
+                  <a
+                    href="https://siinforman.wahyuzull.my.id/dashboard/users"
+                    target="_blank"
+                  >
                     <h3 className="text-2xl font-bold mb-2">SiInforMan</h3>
                   </a>
                   <p className="text-slate-700 dark:text-slate-300 mb-4">
@@ -307,8 +310,13 @@ export default function Home() {
                     fitur manajemen surat. Aplikasi ini dibangun dengan Laravel,
                     React.js dan Inertia.js.
                   </p>
+                  <p className="text-slate-700 dark:text-slate-300 mb-4">
+                    Demo : <br />
+                    username : superadmin@pelajarkudus.com <br />
+                    password :superadmin5455
+                  </p>
                   <a
-                    href="https://notes-app-back-end.netlify.app"
+                    href="https://siinforman.wahyuzull.my.id/dashboard/users"
                     target="_blank"
                     className="font-bold text-slate-700 hover:underline"
                   >
